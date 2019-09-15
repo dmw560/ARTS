@@ -56,3 +56,15 @@ public static  int[] twoSumByHashMapOne(int[] nums,int target){
         throw new IllegalArgumentException("No two sum solution!");
     }
 ```
+
+## Review
+
+## Tips
+最近在看<<深入理解计算机系统>> 这本书 ,文章中讲到计算机中信息的表示和处理<br>
+C语言分为无符号和有符号两种表示方法，Java中都是按有符号来表示<br>
+这就导致用C语言编写的程序，一不小心就会出现因为数据类型的不一致导致bug<br>
+因此在编写程序时要时刻注意两点：<br>
+1.保证程序中参数、返回值等数据类型一致；
+2.对于特殊值，如最大值、最小值要时刻保持警惕。
+## Share
+
